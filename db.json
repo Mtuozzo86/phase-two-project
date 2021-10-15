@@ -1,0 +1,52 @@
+{
+  "fighters": [
+    {
+      "id": 1,
+      "name": "Johnny Cage",
+      "image": "https://upload.wikimedia.org/wikipedia/en/7/7b/Johnny_Render_mk_11.png",
+      "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Semper risus in hendrerit gravida. Iaculis urna id volutpat lacus laoreet non. Ante in nibh mauris cursus mattis molestie a iaculis at. Scelerisque viverra mauris in aliquam. Varius quam quisque id diam vel quam elementum pulvinar etiam. Faucibus purus in massa tempor nec feugiat nisl pretium fusce. Urna nunc id cursus metus. Amet facilisis magna etiam tempor. Aenean vel elit scelerisque mauris pellentesque pulvinar pellentesque habitant morbi. Vestibulum lectus mauris ultrices eros in cursus. Gravida arcu ac tortor dignissim. Ligula ullamcorper malesuada proin libero nunc consequat interdum varius sit. Et netus et malesuada fames ac turpis. Donec adipiscing tristique risus nec feugiat in. Nec tincidunt praesent semper feugiat nibh sed. Elementum pulvinar etiam non quam lacus suspendisse."
+    },
+    {
+      "id": 2,
+      "name": "Kano",
+      "image": "https://upload.wikimedia.org/wikipedia/en/8/81/KanoMKXrender.png",
+      "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Semper risus in hendrerit gravida. Iaculis urna id volutpat lacus laoreet non. Ante in nibh mauris cursus mattis molestie a iaculis at. Scelerisque viverra mauris in aliquam. Varius quam quisque id diam vel quam elementum pulvinar etiam. Faucibus purus in massa tempor nec feugiat nisl pretium fusce. Urna nunc id cursus metus. Amet facilisis magna etiam tempor. Aenean vel elit scelerisque mauris pellentesque pulvinar pellentesque habitant morbi. Vestibulum lectus mauris ultrices eros in cursus. Gravida arcu ac tortor dignissim. Ligula ullamcorper malesuada proin libero nunc consequat interdum varius sit. Et netus et malesuada fames ac turpis. Donec adipiscing tristique risus nec feugiat in. Nec tincidunt praesent semper feugiat nibh sed. Elementum pulvinar etiam non quam lacus suspendisse."
+    },
+    {
+      "id": 3,
+      "name": "Liu Kang",
+      "image": "https://upload.wikimedia.org/wikipedia/en/9/92/LiuKangMKXRender.png",
+      "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Semper risus in hendrerit gravida. Iaculis urna id volutpat lacus laoreet non. Ante in nibh mauris cursus mattis molestie a iaculis at. Scelerisque viverra mauris in aliquam. Varius quam quisque id diam vel quam elementum pulvinar etiam. Faucibus purus in massa tempor nec feugiat nisl pretium fusce. Urna nunc id cursus metus. Amet facilisis magna etiam tempor. Aenean vel elit scelerisque mauris pellentesque pulvinar pellentesque habitant morbi. Vestibulum lectus mauris ultrices eros in cursus. Gravida arcu ac tortor dignissim. Ligula ullamcorper malesuada proin libero nunc consequat interdum varius sit. Et netus et malesuada fames ac turpis. Donec adipiscing tristique risus nec feugiat in. Nec tincidunt praesent semper feugiat nibh sed. Elementum pulvinar etiam non quam lacus suspendisse."
+    },
+    {
+      "id": 4,
+      "name": "Raiden",
+      "image": "https://upload.wikimedia.org/wikipedia/en/0/06/Raidenmk11.png",
+      "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Semper risus in hendrerit gravida. Iaculis urna id volutpat lacus laoreet non. Ante in nibh mauris cursus mattis molestie a iaculis at. Scelerisque viverra mauris in aliquam. Varius quam quisque id diam vel quam elementum pulvinar etiam. Faucibus purus in massa tempor nec feugiat nisl pretium fusce. Urna nunc id cursus metus. Amet facilisis magna etiam tempor. Aenean vel elit scelerisque mauris pellentesque pulvinar pellentesque habitant morbi. Vestibulum lectus mauris ultrices eros in cursus. Gravida arcu ac tortor dignissim. Ligula ullamcorper malesuada proin libero nunc consequat interdum varius sit. Et netus et malesuada fames ac turpis. Donec adipiscing tristique risus nec feugiat in. Nec tincidunt praesent semper feugiat nibh sed. Elementum pulvinar etiam non quam lacus suspendisse."
+    },
+    {
+      "id": 5,
+      "name": "Scorpion",
+      "image": "https://upload.wikimedia.org/wikipedia/en/6/6c/ScorpionMKXRender.png",
+      "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Semper risus in hendrerit gravida. Iaculis urna id volutpat lacus laoreet non. Ante in nibh mauris cursus mattis molestie a iaculis at. Scelerisque viverra mauris in aliquam. Varius quam quisque id diam vel quam elementum pulvinar etiam. Faucibus purus in massa tempor nec feugiat nisl pretium fusce. Urna nunc id cursus metus. Amet facilisis magna etiam tempor. Aenean vel elit scelerisque mauris pellentesque pulvinar pellentesque habitant morbi. Vestibulum lectus mauris ultrices eros in cursus. Gravida arcu ac tortor dignissim. Ligula ullamcorper malesuada proin libero nunc consequat interdum varius sit. Et netus et malesuada fames ac turpis. Donec adipiscing tristique risus nec feugiat in. Nec tincidunt praesent semper feugiat nibh sed. Elementum pulvinar etiam non quam lacus suspendisse."
+    },
+    {
+      "id": 6,
+      "name": "Sonya Blade",
+      "image": "https://upload.wikimedia.org/wikipedia/en/7/72/Sonya_MK_11.png",
+      "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Semper risus in hendrerit gravida. Iaculis urna id volutpat lacus laoreet non. Ante in nibh mauris cursus mattis molestie a iaculis at. Scelerisque viverra mauris in aliquam. Varius quam quisque id diam vel quam elementum pulvinar etiam. Faucibus purus in massa tempor nec feugiat nisl pretium fusce. Urna nunc id cursus metus. Amet facilisis magna etiam tempor. Aenean vel elit scelerisque mauris pellentesque pulvinar pellentesque habitant morbi. Vestibulum lectus mauris ultrices eros in cursus. Gravida arcu ac tortor dignissim. Ligula ullamcorper malesuada proin libero nunc consequat interdum varius sit. Et netus et malesuada fames ac turpis. Donec adipiscing tristique risus nec feugiat in. Nec tincidunt praesent semper feugiat nibh sed. Elementum pulvinar etiam non quam lacus suspendisse."
+    },
+    {
+      "id": 7,
+      "name": "Sub-Zero",
+      "image": "https://upload.wikimedia.org/wikipedia/en/a/a7/SubZeroMKXrender.png",
+      "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Semper risus in hendrerit gravida. Iaculis urna id volutpat lacus laoreet non. Ante in nibh mauris cursus mattis molestie a iaculis at. Scelerisque viverra mauris in aliquam. Varius quam quisque id diam vel quam elementum pulvinar etiam. Faucibus purus in massa tempor nec feugiat nisl pretium fusce. Urna nunc id cursus metus. Amet facilisis magna etiam tempor. Aenean vel elit scelerisque mauris pellentesque pulvinar pellentesque habitant morbi. Vestibulum lectus mauris ultrices eros in cursus. Gravida arcu ac tortor dignissim. Ligula ullamcorper malesuada proin libero nunc consequat interdum varius sit. Et netus et malesuada fames ac turpis. Donec adipiscing tristique risus nec feugiat in. Nec tincidunt praesent semper feugiat nibh sed. Elementum pulvinar etiam non quam lacus suspendisse."
+    },
+    {
+      "name": "Good Guy ",
+      "image": "https://trickortreatstudios.com/media/catalog/product/cache/1da4909b8e3ea5eea17a9fb4c6e4a516/p/r/production-goodguy_4.png",
+      "bio": "Good Guy",
+      "id": 9
+    }
+  ]
+}
