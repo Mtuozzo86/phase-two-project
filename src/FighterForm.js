@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { useHistory } from "react-router-dom";
 
 function About({ liftFighterform }) {
   const [fighter, setFighter] = useState("");
@@ -12,6 +13,8 @@ function About({ liftFighterform }) {
       image: image,
       bio: bio,
     };
+    console.log(fighterForm);
+
     fetch("http://localhost:3001/fighters", {
       method: "POST",
       headers: {

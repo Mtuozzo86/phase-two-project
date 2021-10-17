@@ -1,24 +1,27 @@
 import React from "react";
 import "./Fighter.css";
+import { useParams } from "react-router-dom";
+import HighlightedFighter from "./HighlightedFighter";
 
-function FighterBio({ fighter }) {
-  console.log(fighter);
+function FighterBio({ fighters }) {
+  const params = useParams();
+
+  const character = fighters.find((elem) => elem.name === params.characterId);
+  console.log(character);
+  
+  if (!character) {
+    return <p>Loading</p>;
+  }
 
   return (
     <div>
-      <h1>{fighter[0].name}</h1>
-      <img src={fighter[0].image} alt={fighter[0].name} />
-      <p>{fighter[0].bio}</p>
+      <HighlightedFighter
+        name={character.name}
+        image={character.image}
+        bio={character.bio}
+      />
     </div>
   );
 }
 
 export default FighterBio;
-
-{
-  /* <div>
-      <h1>{fighter[0].name}</h1>
-      <img src={fighter[0].image} alt={fighter[0].name} />
-      <p>{fighter[0].bio}</p>
-    </div> */
-}

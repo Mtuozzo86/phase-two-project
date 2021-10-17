@@ -15,7 +15,6 @@ function App() {
   }, []);
 
   const [fighters, setFighters] = useState([]);
-  const [chosen, setChosen] = useState({});
 
   function onAddFighter(fighter) {
     const newFighter = [...fighters, fighter];
@@ -30,23 +29,12 @@ function App() {
       .then(() => setFighters(fighters.filter((fighter) => fighter.id !== id)));
   }
 
-  function handlePickFighter(picked) {
-    const clickedFighter = fighters.filter(
-      (fighter) => fighter.name === picked
-    );
-    setChosen(clickedFighter);
-  }
-
   return (
     <div className="App">
       <NavBar />
       <Switch>
         <Route exact path="/kombatants">
-          <Fighters
-            fighters={fighters}
-            onDelete={handleDelete}
-            pickFighter={handlePickFighter}
-          />
+          <Fighters fighters={fighters} onDelete={handleDelete} />
         </Route>
         <Route exact path="/about">
           <About liftFighterform={onAddFighter} />
@@ -54,8 +42,8 @@ function App() {
         <Route exact path="/">
           <Home />
         </Route>
-        <Route path="/kombatants/:id">
-          <FighterBio fighter={chosen} />
+        <Route path="/kombatants/:characterId">
+          <FighterBio fighters={fighters} />
         </Route>
       </Switch>
     </div>

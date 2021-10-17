@@ -1,22 +1,18 @@
 import React from "react";
 import "./Fighter.css";
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 
-function Fighter({ id, name, image, onDelete, pickFighter }) {
+function Fighter({ id, name, image, onDelete }) {
   function handleDelete() {
     onDelete(id);
-  }
-
-  function handleClick() {
-    pickFighter(name);
   }
 
   return (
     <div className="fighter">
       <h2>{name}</h2>
-      <NavLink to={`kombatants/${id}`}>
-        <img onClick={handleClick} src={image} alt={image} />
-      </NavLink>
+      <Link to={`kombatants/${name}`}>
+        <img src={image} alt={image} />
+      </Link>
       <br />
       <button onClick={handleDelete}>Remove</button>
     </div>
