@@ -43,22 +43,22 @@
       "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Semper risus in hendrerit gravida. Iaculis urna id volutpat lacus laoreet non. Ante in nibh mauris cursus mattis molestie a iaculis at. Scelerisque viverra mauris in aliquam. Varius quam quisque id diam vel quam elementum pulvinar etiam. Faucibus purus in massa tempor nec feugiat nisl pretium fusce. Urna nunc id cursus metus. Amet facilisis magna etiam tempor. Aenean vel elit scelerisque mauris pellentesque pulvinar pellentesque habitant morbi. Vestibulum lectus mauris ultrices eros in cursus. Gravida arcu ac tortor dignissim. Ligula ullamcorper malesuada proin libero nunc consequat interdum varius sit. Et netus et malesuada fames ac turpis. Donec adipiscing tristique risus nec feugiat in. Nec tincidunt praesent semper feugiat nibh sed. Elementum pulvinar etiam non quam lacus suspendisse."
     },
     {
-      "name": "Good Guy ",
-      "image": "https://trickortreatstudios.com/media/catalog/product/cache/1da4909b8e3ea5eea17a9fb4c6e4a516/p/r/production-goodguy_4.png",
-      "bio": "Good Guy",
+      "name": "Sektor",
+      "image": "https://upload.wikimedia.org/wikipedia/en/3/37/Sektor_mk11.png",
+      "bio": "The cyborg ninja",
+      "id": 8
+    },
+    {
+      "name": "Cyrax",
+      "image": "https://upload.wikimedia.org/wikipedia/en/8/82/Cyrax_mk11.png",
+      "bio": "Cyborg Ninja",
       "id": 9
     },
     {
-      "name": "asdf",
-      "image": "dfs",
-      "bio": "The cyborg ninja",
+      "name": "Goro",
+      "image": "https://www.fightersgeneration.com/np2/char1/gifs/goro-mk1-wins.gif",
+      "bio": "Monster",
       "id": 10
-    },
-    {
-      "name": "Audrey 2",
-      "image": "https://trickortreatstudios.com/media/catalog/product/cache/1da4909b8e3ea5eea17a9fb4c6e4a516/_/0/_0013_seedofchucky-chucky-productiondoll.png",
-      "bio": "Doll",
-      "id": 11
     }
   ]
 }

@@ -7,8 +7,7 @@ function FighterBio({ fighters }) {
   const params = useParams();
 
   const character = fighters.find((elem) => elem.name === params.characterId);
-  console.log(character);
-  
+
   if (!character) {
     return <p>Loading</p>;
   }

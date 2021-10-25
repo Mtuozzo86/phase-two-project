@@ -14,7 +14,9 @@ function Fighter({ id, name, image, onDelete }) {
         <img src={image} alt={image} />
       </Link>
       <br />
-      <button onClick={handleDelete}>Remove</button>
+      <button className="btn" onClick={handleDelete}>
+        Remove
+      </button>
     </div>
   );
 }

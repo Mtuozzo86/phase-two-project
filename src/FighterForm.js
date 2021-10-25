@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import { useHistory } from "react-router-dom";
+import "./FighterForm.css";
 
-function About({ liftFighterform }) {
+function FighterForm({ liftFighterform }) {
   const [fighter, setFighter] = useState("");
   const [image, setImage] = useState("");
   const [bio, setBio] = useState("");
@@ -42,35 +42,43 @@ function About({ liftFighterform }) {
 
   // Dom Render
   return (
-    <form onSubmit={handleSubmit}>
-      <h1>Add a Kombatant</h1>
-      <input
-        value={fighter}
-        type="text"
-        name="name"
-        placeholder="Fighter Name..."
-        onChange={handleFighter}
-      />
-      <br />
-      <input
-        value={image}
-        type="text"
-        name="image"
-        placeholder="Enter fighter's image URL"
-        onChange={handleImage}
-      />
-      <br />
-      <input
-        value={bio}
-        type="text"
-        name="bio"
-        placeholder="Enter description"
-        onChange={handleBio}
-      />
-      <br />
-      <input type="submit" name="submit" value="Add Fighter" />
-    </form>
+    <div className="form">
+      <form onSubmit={handleSubmit}>
+        <h1>Add a Kombatant</h1>
+        <input
+          value={fighter}
+          type="text"
+          name="name"
+          placeholder="Fighter Name..."
+          onChange={handleFighter}
+        />
+        <br />
+        <input
+          value={image}
+          type="text"
+          name="image"
+          placeholder="Enter fighter's image URL"
+          onChange={handleImage}
+        />
+        <br />
+        <textarea
+          className="bio"
+          value={bio}
+          type="text"
+          name="bio"
+          placeholder="Enter description"
+          onChange={handleBio}
+        />
+        <br />
+        <input
+          className="btn"
+          type="submit"
+          name="submit"
+          value="Add Fighter"
+        />
+      </form>
+    </div>
   );
 }
 
-export default About;
+export default FighterForm;

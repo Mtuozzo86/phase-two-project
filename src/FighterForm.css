@@ -1,15 +1,22 @@
-.fighter {
+.form {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: rgb(110, 100, 100);
+  border-radius: 10px;
+  color: rgb(255, 255, 255);
+  box-shadow: 5px 5px 20px 4px rgb(0, 0, 0);
   text-align: center;
+  width: 30%;
   display: inline-block;
-  margin: 1rem;
+  margin-top: 5rem;
+  padding-bottom: 2rem;
 }
 
-img {
-  height: 15rem;
-  width: auto;
-  /* border: solid rgba(37, 37, 37, 0.267); */
-
-  border-radius: 3px;
+input {
+  border-radius: 5px;
+  margin: 5px;
+  width: 50%;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 .btn {
@@ -17,6 +24,7 @@ img {
   padding: 0.46em 1.6em;
   border: 0.1em solid #000000;
   margin-top: 15px;
+
   text-decoration: none;
   font-size: 16px;
   color: #000000;
@@ -29,4 +37,9 @@ img {
   text-shadow: 0 0 2em rgb(10, 0, 0);
   color: #ffffff;
   border-color: #ffffff;
+}
+
+.bio[type="text"] {
+  width: 50%;
+  height: 100%;
 }

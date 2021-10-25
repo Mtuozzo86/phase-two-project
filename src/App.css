@@ -1,25 +1,8 @@
-.App {
+.App,
+html {
+  height: 100vh;
+
   text-align: center;
-}
-
-nav {
-  background-color: rgb(0, 0, 0);
-  padding-top: 1rem;
-  padding-bottom: 2rem;
-  width: 75%;
-  display: inline-block;
-  border-radius: 10px;
-}
-
-nav a {
-  margin: 2rem;
-  text-align: left;
-  font-size: 2rem;
-  color: rgb(214, 142, 60);
-  text-decoration: none;
-}
-
-nav a:active,
-nav a:hover {
-  text-decoration: underline;
+  background-color: rgb(129, 119, 119);
+  background-size: 100vh;
 }

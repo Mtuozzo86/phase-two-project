@@ -3,7 +3,7 @@ import "./App.css";
 import Home from "./Home";
 import NavBar from "./NavBar";
 import { Route, Switch } from "react-router-dom";
-import About from "./FighterForm";
+import FighterForm from "./FighterForm";
 import Fighters from "./Fighters";
 import FighterBio from "./FighterBio";
 
@@ -36,11 +36,11 @@ function App() {
         <Route exact path="/kombatants">
           <Fighters fighters={fighters} onDelete={handleDelete} />
         </Route>
-        <Route exact path="/about">
-          <About liftFighterform={onAddFighter} />
+        <Route exact path="/addfighter">
+          <FighterForm liftFighterform={onAddFighter} />
         </Route>
         <Route exact path="/">
-          <Home />
+          <Home fighters={fighters} />
         </Route>
         <Route path="/kombatants/:characterId">
           <FighterBio fighters={fighters} />
